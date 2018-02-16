@@ -1,0 +1,54 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*main context menu*/
+#context-navigation, #context-savepage, #context-pocket, #context-sendpagetodevice, #context-viewbgimage, #context-selectall, #context-viewsource, #context-viewinfo, #screenshots_mozilla_org_create-screenshot, #ublock0_raymondhill_net_uBlock0-blockElement { 
+    display: none !important 
+}
+
+/*separators*/
+#context-sep-navigation, #context-sep-sendpagetodevice, #context-sep-viewbgimage, #context-sep-viewsource, #inspect-separator {
+	display: none !important
+}
+
+/*link context menu*/
+#context-openlinkinusercontext-menu, #context-openlink, #context-bookmarklink, #context-savelinktopocket, #context-viewpartialsource-selection, #context-searchselect {
+	display: none !important
+}
+
+/*image context menu*/
+#context-viewimage, #context-sendimage {
+	display: none !important
+}
+
+/*input context menu*/
+#context-undo, #context-sep-undo, #context-sep-paste, #context-selectall
+
+/*main hamburger menu*/
+#appMenuRestoreLastSession, #appMenu-edit-controls, #appMenu-cut-button, #appMenu-copy-button, #appMenu-paste-button, #appMenu-edit-controls, #appMenu-zoom-controls, #appMenu-open-file-button, #appMenu-save-file-button, #appMenu-print-button, #appMenu-quit-button {
+	display: none !important
+}
+
+/*separators*/
+ #appMenu-zoom-controls + toolbarseparator, #appMenuRestoreLastSession + toolbarseparator, #appMenu-customize-button + toolbarseparator, #appMenu-help-button + toolbarseparator {
+	display: none !important
+ }
+ 
+ /*url context menu*/
+#urlbar menuitem[cmd="cmd_undo"], #urlbar menuitem[cmd="cmd_undo"] + menuseparator, #urlbar menuitem[cmd="cmd_delete"] + menuseparator, #urlbar menuitem[cmd="cmd_selectAll"] {
+	display: none !important
+}
+
+/*tab context menu*/
+#tabContextMenu #context_reloadTab, #tabContextMenu #context_duplicateTab, #tabContextMenu #context_reloadAllTabs, #tabContextMenu #context_bookmarkAllTabs, #tabContextMenu #context_openTabInWindow, #tabContextMenu #context_undoCloseTab, #tabContextMenu #context_closeTabsToTheEnd, #tabContextMenu #context_closeOtherTabs {
+	display: none !important
+}
+
+/*separators*/
+#tabContextMenu #context_toggleMuteTab + menuseparator, #tabContextMenu #context_sendTabToDevice_separator, #tabContextMenu #context_closeOtherTabs + menuseparator, #tabContextMenu #context_sendTabToDevice_separator {
+	display: none !important
+}
+
+/*toolbar context menu*/
+#toolbar-context-menu #toolbar-context-reloadAllTabs, #toolbar-context-menu #toolbar-context-bookmarkAllTabs, #toolbar-context-menu #toolbar-context-undoCloseTab, #toolbar-context-menu #toolbar-context-undoCloseTab + menuseparator {
+	display: none !important
+}

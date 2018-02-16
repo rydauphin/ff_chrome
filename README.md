@@ -1,2 +1,3 @@
 # ff_chrome
-bananas
+
+just a few things to make firefox cleaner
